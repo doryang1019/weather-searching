@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Information</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Yi-Sin Yang Weather Bonus Project</h1>
+    <div class="container">
+        <div class="weather-data">
+            <h3 id="cName">Please Enter a City Name</h3>
+            <input class="city-input" type="text" placeholder="Ex: Vancouver, Taipei, Tokyo">
+            <button class="search-btn">Search</button>
+            <div class="weather-extra">
+                <h2 class="city-name-h2">City Info</h2>
+                <div class="city-info">
+                    <h2>City Name - Country</h2>
+                    <h6>Latitude: __</h6>
+                    <h6>Longtitude: __</h6>
+                    <h6>Time Zone: __</h6>
+                </div>
+            </div>
+            <h2 class="cw-name">Current Weather Temperature</h2>
+            <div class="current-weather">
+                <div class="details">
+                    <h2>City - Name</h2>
+                    <div class="dh6">
+                        <h6>Highest Temperature: __F</h6>
+                        <h6>Lowest Temperature: __ F</h6>
+                        <h6>Estimate Weather: __</h6>
+                    </div>
+                </div>
+            </div>
+            <h2 class="cw-name">Current Weather Information</h2>
+            <div class="obv-cards">
+                <div class="obv-details">
+                    <h6>Wind Speed: __</h6>
+                    <h6>Humidity: __ </h6>
+                    <h6>Visibility: __</h6>
+                    <h6>Sunset Time: __</h6>
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2 class="d-name">6-Day Weather Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h2>Date</h2>
+                        <h6>Highest Temperature: °F</h6>
+                        <h6>Lowest Temperature:°F</h6>
+                        <h6>Estimate Weather: M/S</h6>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
